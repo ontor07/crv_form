@@ -1,0 +1,38 @@
+body{
+    background-color: #f9fafb;
+}
+.nCard{
+    background-color: white !important;
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.2);
+}
+.container{
+    max-width: 1180px;
+}
+.title{
+    
+}
+.bg-info{
+    background-color: #66d1d1 !important;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+}
+form.row.g-3 {
+    margin: 2rem;
+}
+.from {
+    margin: 16px;
+    border: 1px solid #989898;
+}
+input.form-control ,.form-select{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+input.form-control:focus , .form-select:focus{
+    border: 1px solid rgb(0, 102, 255);
+    box-shadow: none;
+    transition: 0.3s;
+}
+.btn-primary{
+    border-radius: 0px ;
+}
